@@ -1,0 +1,21 @@
+KLASIFIKASI KONDISI SUSUNAN SEPATU — EVALUASI FINAL
+============================================================
+Eksperimen        : E5 (RGB + GLCM + HOG + LBP)
+Model             : SVM (RBF)
+Fitur             : 33
+CV mean accuracy  : 0.8194 +/- 0.1052
+Test accuracy     : 0.7179
+Best params       : {'model__C': 100, 'model__gamma': 0.01}
+
+Confusion matrix (baris=aktual, kolom=prediksi):
+[[16  4]
+ [ 7 12]]
+
+                  precision    recall  f1-score   support
+
+      berantakan     0.6957    0.8000    0.7442        20
+tidak_berantakan     0.7500    0.6316    0.6857        19
+
+        accuracy                         0.7179        39
+       macro avg     0.7228    0.7158    0.7150        39
+    weighted avg     0.7221    0.7179    0.7157        39
